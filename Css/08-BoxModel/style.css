@@ -1,0 +1,16 @@
+p  {
+    background-color: coral;
+}
+
+p {
+    /*largura*/
+    width: 200px;
+    /*altura*/
+    height: 200px;
+    padding: 10px;
+    border: 3px rgb(141, 141, 255);
+    border-radius: 10px;
+    margin: 50px;
+    background-color: rgb(44, 44, 141);
+    color: white;
+}

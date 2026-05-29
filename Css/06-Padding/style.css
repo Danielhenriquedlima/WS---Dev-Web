@@ -1,0 +1,22 @@
+p {
+    background-color: coral;
+}
+
+p {
+    padding: 30px
+}
+
+p {
+    padding-top: 10px;
+    padding: 30px;
+    padding: 60px;
+    padding: 0p;
+}
+
+p {
+    padding: 16px 24px;
+}
+
+p {
+    padding: 10px 20px 0 30px;
+}

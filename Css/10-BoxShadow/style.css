@@ -1,0 +1,11 @@
+p {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+}
+
+p {
+/*deslocamento horizontal - deslocamento vertical - desfoque*/
+    box-shadow: 10px 10px 10px rgb(8, 2, 6);
+}
