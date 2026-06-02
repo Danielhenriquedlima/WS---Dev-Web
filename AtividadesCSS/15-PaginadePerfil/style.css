@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.card {
+    background-color: #f0f0f0;
+    margin: 30px;
+    padding: 10px 20px;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgb(3, 58, 3);
+    border-radius: 10px;
+}
+
+h1 {
+    color: darkolivegreen;
+}
+
+h2  {
+     color: darkolivegreen;
+}
+
+.sobre-mim, .hobbies, .habilidade {
+    margin-bottom: 30px;
+}
+
+p {
+    margin-top: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    padding: 20px;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px #696969;
+    margin-bottom: 40px;
+    display: block;
+}
+
+.rodape a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
