@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(13, 67, 76);
+    margin: 0;
+    padding: 10px 60px;
+}
+
+h1, h2 {
+    color: rgb(225, 210, 210);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: rgb(102, 194, 176);
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000602;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input, select, textarea {
+    width: 100px;
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #03640dcc;
+    border-radius: 3px;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    display: inline-block;
+}
