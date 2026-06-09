@@ -1,0 +1,46 @@
+.card {
+    background-color: #f3f4f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 20px 8px rgba(10, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 360px;
+}
+
+body {
+    background-color: #757778;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #040215;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    color: #02020c;
+    text-align: center;
+    margin-top: 0;
+}
+h3 {
+    color: #130505;
+    margin-top: 10px;
+}
+
+.imagem {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(7, 0, 0);
+    margin: auto;
+}
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #2e1bd7;
+    text-decoration: none;
+}

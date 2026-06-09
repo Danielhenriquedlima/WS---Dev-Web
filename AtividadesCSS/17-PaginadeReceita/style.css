@@ -1,0 +1,35 @@
+body {
+    background-color: #584505;
+}
+.receita {
+    background-color: #dbca69;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 360px;
+    margin: auto;
+}
+
+h1 {
+    color:rgb(217, 38, 38);
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    color: brown;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imagem {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px grey;
+    margin: auto;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+}

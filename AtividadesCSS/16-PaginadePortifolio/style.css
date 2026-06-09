@@ -1,3 +1,32 @@
-h1 {
-    background-color: ;
+.card {
+
+
+    background-color: #0ca5c4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    width: 360px;
+h1 {    
+    color: blue;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.projeto {
+    margin-bottom: 20px;
+    
+}
+
+.img {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+a:hover {
+    color: red;
+}
 }
