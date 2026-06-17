@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro Sabores de Sorvete</h1>
+
+    <form action="/" method="post">
+        <label for="sabor">Escolha o sabor do sorvete:</label>
+        <select id="sabor" name="sabor" required>
+            <option value="">Selecione um sabor</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="morango">Morango</option>
+            <option value="baunilha">Baunilha</option>
+            <option value="flocos">Flocos</option>
+            <option value="napolitano">Napolitano</option>
+        </select><br><br>
+
+        <label>Escolha o tamanho do sorvete:</label><br>
+        <datalist id="tamanhos">
+            <option value="Pequeno">
+            <option value="Médio">
+            <option value="Grande">
+        </datalist>
+        <input list="tamanhos" name="tamanho" required><br><br>
+
+        
+
+        <input type="submit" value="Enviar">
+</body>
+</html>
