@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #52d9ee;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: rgb(115, 193, 229);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 350px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 1px 5px 10px rgb(0, 0, 0);
+}
+
+button {
+    background-color: #030f11;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
