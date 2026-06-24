@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(159, 238, 159);
+}
+
+form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #cfe2c9;
+    border-radius: 15px;
+    box-shadow: 20px 30px 3px rgba(19, 2, 2, 0.12);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    
+}
+
+.input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+   
+.botoes {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(159, 238, 159);
+}
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    color: rgb(2, 5, 2);
+    background-color: chartreuse;
+    
+}

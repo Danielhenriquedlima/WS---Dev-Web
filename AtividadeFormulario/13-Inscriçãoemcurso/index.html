@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Inscrição em Curso</h2>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel" name="tel" required placeholder="Digite seu telefone">
+
+        <label for="curso">Curso desejado:</label>
+        <select id="curso" name="curso" required>
+            <option value="">Selecione um curso</option>
+            <option value="informatica">Informática</option>
+            <option value="ingles">Inglês</option>
+            <option value="matematica">Matemática</option>
+            <option value="ciencias">Ciências</option>
+        </select>
+
+        <label>Periodo:</label>
+
+        <input type="radio" name="Periodo">Manhã <br>
+        <input type="radio" name="Periodo">Tarde <br>
+        <input type="radio">Noite 
+        <br><br>
+
+        <label>Materiais extras:</label>
+
+        <input type="checkbox" name="materiais">Apostila Digital <br>
+        <input type="checkbox" name="materiais">Certificado Impresso <br>
+
+        <input type="checkbox" name="materiais">Material complementar <br><br>
+
+        <label>Duvidas</label><br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+
+        <button type="submit">Finalizar Inscrição</button>
+    </form>
+</body>
+</html>
