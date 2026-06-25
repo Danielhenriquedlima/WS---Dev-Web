@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bab9b9;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+h1 {
+    color: #003366;
+}
+
+figure {
+    background-color: rgb(69, 65, 65);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+} 
+
+details {
+    margin-top: 20px;
+    background-color: rgb(179, 153, 153);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+mark {
+    background-color: rgb(206, 196, 11);
+}

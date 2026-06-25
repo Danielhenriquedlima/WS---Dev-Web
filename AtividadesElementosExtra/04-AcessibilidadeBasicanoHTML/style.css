@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: navy;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+P {
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    display: block;
+    margin-top: 15px;
+}

@@ -11,26 +11,32 @@ body {
     justify-content: center;
 }
 
-/*Container principal (Caixa/Bloco principal)*/
-.caixa {
+
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
+    max-width: 300px;
     margin: 5px;
+    padding: 10px;
     background-color: navy;
 }
 
-/*Caixa que fica dentro do container principal (FLEX ITEM*/
+
 .item {
     background-color: coral;
     color: white;
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     text-align: center
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
