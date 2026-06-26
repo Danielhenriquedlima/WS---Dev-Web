@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #969595;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #6a0dad;
+}
+
+p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+}
+
+video,
+audio,
+iframe {
+    margin-top: 20px;
+    border-radius: 10px;
+}
