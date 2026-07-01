@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Store</title>
+ 
+<style>
+ 
+/* Estilo geral */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+ 
+header{
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+ 
+header h1{
+    margin-bottom: 10px;
+}
+ 
+section{
+    padding: 30px;
+}
+ 
+h2{
+    color: #0066cc;
+}
+ 
+/* Lista de categorias */
+ul{
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
+ 
+li{
+    margin: 5px 0;
+}
+ 
+/* Cards */
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+ 
+.card{
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+ 
+/* Descendente */
+.card p{
+    color: #666;
+}
+ 
+/* Duas classes */
+.card.destaque{
+    border: 3px solid gold;
+}
+ 
+/* Filho direto */
+.promocao > h2{
+    color: red;
+}
+ 
+/* Irmão adjacente */
+h3 + p{
+    font-style: italic;
+}
+ 
+/* Irmãos gerais */
+h2 ~ p{
+    margin-top: 10px;
+}
+ 
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+ 
+</style>
+</head>
+ 
+<body>
+ 
+<header>
+    <h1>🎮 Game Store</h1>
+    <p>Os melhores jogos com os melhores preços!</p>
+</header>
+ 
+<section>
+    <h2>Categorias</h2>
+ 
+    <ul>
+        <li>Ação</li>
+        <li>Aventura</li>
+        <li>Corrida</li>
+        <li>Esporte</li>
+        <li>RPG</li>
+    </ul>
+</section>
+ 
+<section>
+    <h2>Jogos em Destaque</h2>
+ 
+    <div class="cards">
+ 
+        <div class="card destaque">
+            <h3>GTA V</h3>
+            <p>Explore uma cidade enorme cheia de ação e aventura.</p>
+        </div>
+ 
+        <div class="card">
+            <h3>Minecraft</h3>
+            <p>Construa, explore e sobreviva em um mundo infinito.</p>
+        </div>
+ 
+        <div class="card">
+            <h3>EA FC 25</h3>
+            <p>Viva a emoção do futebol com gráficos incríveis.</p>
+        </div>
+ 
+    </div>
+</section>
+ 
+<section class="promocao">
+    <h2>🔥 Promoção da Semana</h2>
+    <p>Até 50% de desconto em jogos selecionados.</p>
+    <p>Aproveite enquanto durar o estoque!</p>
+</section>
+ 
+<section>
+    <h2>Depoimento de Cliente</h2>
+ 
+    <div class="card">
+        <h3>Daniel Henrique</h3>
+        <p>"Ótimos preços, entrega rápida e excelente atendimento!"</p>
+    </div>
+ 
+</section>
+ 
+<footer>
+    <p>&copy; 2025 Game Store - Todos os direitos reservados.</p>
+</footer>
+ 
+</body>
+</html>
+ 
+ 
